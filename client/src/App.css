@@ -28,12 +28,6 @@ header a {
   border-radius: 15px;
 }
 /*css for the Event Table*/
-#eventTable {
-  width: 30em;
-  text-align: center;
-  table-layout: fixed;
-  border-collapse: collapse;
-}
 
 th, tr, td, table {
   text-align: center;

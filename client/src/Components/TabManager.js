@@ -6,17 +6,13 @@ import Contact from "./Tabs/Contact";
 //imports Contact.js from the Tabs folder
 import About from "./Tabs/About";
 //imports About.js from the Tabs folder
-
+import GoogleLoginTab from "./Tabs/GoogleLoginTab"
 function TabManager() {
     const [activeTab, setActiveTab] = useState(<Home />);
     const [isLoggedIn, setIsLoggedIn] = useState(false)
     //creates variables using useState, makes home default and isLoggedIn is false
 
-    const receiveLogin = (receivedLoggedIn) => {
-        console.log("value received from Register.js", receivedLoggedIn)
-        setIsLoggedIn(receivedLoggedIn)
-    }
-    //when logged in, sets LoggedIn as true
+  
 
     const handleHome = () => {
         setActiveTab(<Home />)
@@ -28,6 +24,10 @@ function TabManager() {
     const handleAbout = () => {
         setActiveTab(<About />)
     }
+    const handleGoogleLogin = () => {
+        setActiveTab(<GoogleLoginTab />)
+    }
+    
     
     //are used when something is clicked
 
@@ -39,6 +39,8 @@ function TabManager() {
                         <li><a href="home" onClick={handleHome}>Home</a></li>
                         <li><a href="#contact" onClick={handleContact}>Contact Us</a></li>
                         <li><a href="#about" onClick={handleAbout}>About Us</a></li>
+                        <li><a href="#googlelogintab" onClick={handleGoogleLogin}>Login With Google</a></li>
+
                     </ul>
                 </header>
                 <body>
@@ -57,6 +59,8 @@ function TabManager() {
                         <li><a href="home" onClick={handleHome}>Home</a></li>
                         <li><a href="#contact" onClick={handleContact}>Contact Us</a></li>
                         <li><a href="#about" onClick={handleAbout}>About Us</a></li>
+                        <li><a href="#googlelogintab" onClick={handleGoogleLogin}>Login With Google</a></li>
+
                     </ul>
                     {/*HTML for the navbar*/}
                 </header>
