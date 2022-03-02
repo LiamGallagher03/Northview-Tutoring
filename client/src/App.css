@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .App {
   text-align: center;
 }
@@ -21,9 +22,45 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+=======
+header {
+  color: black;
+  background-color: gold;
+  padding: .001em 0em;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2em;
+}
+
+/* Style the navigational bar links*/
+header a {
+  line-height: .6em;
+}
+
+/* Change the background color on mouse-over */
+header a:hover {
+  background-color: #141414;
+  color: gold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+>>>>>>> Stashed changes
   color: white;
 }
 
+<<<<<<< Updated upstream
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +73,31 @@
     transform: rotate(360deg);
   }
 }
+=======
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  header-right {
+    float: none;
+  }
+}
+
+body {
+  background-color: #000000;
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 10px;
+}
+
+
+
+
+p {
+  font-size: 18px;
+}
+>>>>>>> Stashed changes
