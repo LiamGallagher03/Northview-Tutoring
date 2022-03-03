@@ -5,6 +5,7 @@ header {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   position: sticky;
   height: auto;
+  font-size: 1.5em;
 }
 
 /* Logo Styling */
@@ -18,6 +19,19 @@ header a.logo {
 }
 #title {
   color:black
+  
+}
+#HomeTitle{
+  text-align: left;
+  width:20%;
+  margin:25px;
+  font-size:25px;
+}
+#InfoHome{
+  text-align: right;
+  width:90%;
+  margin:25px;
+  font-size:25px;
 }
 
 /* Style the navigational bar links*/
