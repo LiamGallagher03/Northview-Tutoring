@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const StudentForm = () => {
+const TutorForm = () => {
     const [name, setName] = useState('')
     const [free, setFree] = useState('')
     const [subjects, setSubjects] = useState('')
@@ -56,4 +56,4 @@ const StudentForm = () => {
     )
 }
 
-export default StudentForm;
+export default TutorForm;
