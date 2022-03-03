@@ -2,9 +2,7 @@ function Home() {
     return (
         <div>
             <h1>Welcome to The Northview High School Tutoring Page</h1>
-           
         </div>
     )
 }
-
 export default Home

@@ -9,7 +9,7 @@ import About from "./Tabs/About";
 import GoogleLoginTab from "./Tabs/GoogleLoginTab"
 function TabManager() {
     const [activeTab, setActiveTab] = useState(<Home />);
-    
+
     const handleHome = () => {
         setActiveTab(<Home />)
     }
@@ -24,17 +24,15 @@ function TabManager() {
     }
 
     return (
-        <div>
-            <header>
-                <ul>
-                    <li><a href="" onClick={handleHome}>Home</a></li>
-                    <li><a href="#contact" onClick={handleContact}>Contact Us</a></li>
-                    <li><a href="#about" onClick={handleAbout}>About Us</a></li>
-                    <li><a href="#google" onClick={handleGoogleLogin}>Login With Google</a></li>
+        <div id="navbar">
+            <ul>
+                <li><a href="" onClick={handleHome}>Home</a></li>
+                <li><a href="#contact" onClick={handleContact}>Contact Us</a></li>
+                <li><a href="#about" onClick={handleAbout}>About Us</a></li>
+                <li><a href="#google" onClick={handleGoogleLogin}>Login With Google</a></li>
+            </ul>
+            {/*HTML for the navbar*/}
 
-                </ul>
-                {/*HTML for the navbar*/}
-            </header>
             <body>
                 {activeTab}
                 {/*The actual tab*/}
