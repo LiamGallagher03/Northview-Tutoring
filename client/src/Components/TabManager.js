@@ -39,7 +39,7 @@ function TabManager() {
                         <li><a href="home" onClick={handleHome}>Home</a></li>
                         <li><a href="#contact" onClick={handleContact}>Contact Us</a></li>
                         <li><a href="#about" onClick={handleAbout}>About Us</a></li>
-                        <li><a href="#googlelogintab" onClick={handleGoogleLogin}>Login With Google</a></li>
+                        <li><a href="#googlelogintab" onClick={handleGoogleLogin}>SignIn/Login With Google</a></li>
 
                     </ul>
                 </header>
@@ -59,7 +59,7 @@ function TabManager() {
                         <li><a href="home" onClick={handleHome}>Home</a></li>
                         <li><a href="#contact" onClick={handleContact}>Contact Us</a></li>
                         <li><a href="#about" onClick={handleAbout}>About Us</a></li>
-                        <li><a href="#googlelogintab" onClick={handleGoogleLogin}>Login With Google</a></li>
+                        <li><a href="#googlelogintab" onClick={handleGoogleLogin}>SignIn/Login With Google</a></li>
 
                     </ul>
                     {/*HTML for the navbar*/}

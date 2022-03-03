@@ -16,6 +16,9 @@ header a.logo {
   line-height: 15px;
   border-radius: 15px;
 }
+#title {
+  color:black
+}
 
 /* Style the navigational bar links*/
 header a {
