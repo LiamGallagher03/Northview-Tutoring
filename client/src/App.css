@@ -41,19 +41,12 @@ header {
   color: white;
 }
 
-
-
 body {
-  background-color: #000000;
+  background-color: black;
   text-align: center;
   color: #f2f2f2;
   font-size: 10px;
 }
-
-p {
-  font-size: 18px;
-}
-
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
