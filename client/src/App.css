@@ -2,7 +2,7 @@ header {
   overflow: hidden;
   background-color: gold;
   padding: 20px 10px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: monospace;
   position: sticky;
   height: auto;
   font-size: 1.5em;

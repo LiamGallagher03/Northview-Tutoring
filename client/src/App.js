@@ -14,6 +14,7 @@ function App() {
       <body>
           <TabManager />
           {/*Tab Manager component*/}
+          
       </body>
     </div>
   )
