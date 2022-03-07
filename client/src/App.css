@@ -1,59 +1,61 @@
 header {
-  overflow: hidden;
-  background-color: gold;
-  padding: 20px 10px;
-  font-family: monospace;
-  position: sticky;
-  height: auto;
-  font-size: 1.5em;
+  font-family:'Trebuchet MS';
+  font-size: 2em;
 }
 
-/* Logo Styling */
-/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-header a.logo {
-  font-size: 60px;
-  font-weight: bold;
-  padding: 20px;
-  line-height: 15px;
-  border-radius: 15px;
-}
 #title {
-  color:black
-  
-}
-#HomeTitle{
-  text-align: left;
-  width:20%;
-  margin:25px;
-  font-size:25px;
-}
-#InfoHome{
-  text-align: right;
-  width:90%;
-  margin:25px;
-  font-size:25px;
-}
-
-/* Style the navigational bar links*/
-header a {
+  text-align: center;
+  padding: 0.40em;
+  margin: auto;
   color: black;
-  text-align: center;
+  background-color: gold;
+}
+
+#navbar {
+  margin-bottom: 0px;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+
+#navbar a {
   text-decoration: none;
-  padding: 10px;
-  font-size: 20px;
-  line-height: 15px;
-  border-radius: 15px;
+  margin: .5em;
+  margin-left: 1.5em;
+  display: block;
+  color: white;
 }
-/*css for the Event Table*/
 
-th, tr, td, table {
+#navbar a:hover {
+  color: gold;
+}
+
+#navbar li {
+  float: left;
+  display: block;
+  color: white;
+}
+
+body {
+  background-color: black;
   text-align: center;
+  color: #f2f2f2;
+  font-size: 10px;
 }
 
-/* Change the background color on mouse-over */
-header a:hover {
-  background-color: #141414;
-  color: #f1f1f1;
+#homeTitle {
+  float: left;
+  margin-left: 3em;
+}
+
+#infoHome {
+  float: right;
+  margin-right: 3em;
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
@@ -66,56 +68,4 @@ header a:hover {
   header-right {
     float: none;
   }
-}
-
-body {
-  color: #f2f2f2;
-  font-size: 10px;
-}
-
-.visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #04AA6D;
-}
-
-body {
-  background-color: #000000;
-  text-align: center;
-}
-
-p {
-  font-size: 18px;
 }

@@ -10,12 +10,9 @@ function App() {
     <div>     
       <header>
         <h1 id="title">Northview Tutoring</h1>
+        <TabManager/>
       </header>
       <body>
-          <TabManager />
-          
-          {/*Tab Manager component*/}
-          
       </body>
     </div>
   )
