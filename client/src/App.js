@@ -13,6 +13,7 @@ function App() {
       </header>
       <body>
           <TabManager />
+          
           {/*Tab Manager component*/}
           
       </body>
