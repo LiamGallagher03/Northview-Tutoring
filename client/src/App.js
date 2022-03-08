@@ -9,7 +9,7 @@ function App() {
   return (
     <div>     
       <header>
-        <h1 id="title">Northview Tutoring</h1>
+        <h1 id="title">Sylvania Northview HS Tutoring</h1>
         <TabManager/>
       </header>
       <body>
