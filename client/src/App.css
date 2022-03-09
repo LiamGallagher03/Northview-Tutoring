@@ -67,6 +67,23 @@ body {
   font-size: 2em;
 }
 
+#tutorList {
+  width: 50%;
+  float: right;
+  text-align: center;
+  align-items: center;
+}
+
+th, td {
+  margin: 0;
+  padding: 0;
+  width: 10em;
+  border-bottom: .2em solid gray;
+  display:inline-block;
+}
+
+
+
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
   .header a {
