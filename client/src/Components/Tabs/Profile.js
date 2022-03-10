@@ -36,6 +36,6 @@ export default function About() {
   </Card>
 </div>
         </div>
-        //SICC About Page
+        //Northview Tutoring Profile Page
     )
 }
