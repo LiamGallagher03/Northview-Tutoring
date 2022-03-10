@@ -1,15 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-import TutorForm from './TutorForm.js'
+//imports App.css
+import React from 'react';
+//imports React
+import TabManager from './Components/TabManager.js';
+//imports TabMananger from the Components folder
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <TutorForm />
+    <div>     
+      <header>
+        <h1 id="title">Sylvania Northview HS Tutoring</h1>
+        <TabManager/>
       </header>
+      <body>
+      </body>
     </div>
-  );
+  )
 }
-
 export default App;
