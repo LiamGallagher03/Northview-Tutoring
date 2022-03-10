@@ -29,5 +29,5 @@ app.get('/users', (req, res) => {
 
 
 app.listen(8080, () => {
-    console.log("server started")
+    console.log("Server ON")
 })
