@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import StudentForm from './StudentForm.js'
+import TutorForm from './TutorForm.js'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <StudentForm />
+        <TutorForm />
       </header>
     </div>
   );
