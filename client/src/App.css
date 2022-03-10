@@ -1,5 +1,5 @@
 header {
-  font-family:'Trebuchet MS';
+  font-family: monospace;
   font-size: 2em;
 }
 
@@ -17,6 +17,8 @@ header {
 #card {
   background-color: gold;
   color: black;
+  border-style: dashed;
+  
 }
 
 #navbar ul {
